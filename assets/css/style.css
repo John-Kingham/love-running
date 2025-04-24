@@ -176,7 +176,7 @@ main {
 
 #times div {
     color: #fafafa;
-    background-color: rgba(0, 0, 0, .6);
+    background-color: rgba(0, 0, 0, 0.6);
     padding: 15px;
     text-align: center;
     /* This will not wrap on screens of less than 400px wide.
@@ -208,7 +208,7 @@ main {
     background-size: cover;
     background-position: 75%;
     flex-grow: 1;
-    padding: 20px 10%;
+    padding: 20px 10% 0 10%;
 }
 
 #signup-form {
@@ -217,36 +217,35 @@ main {
     padding: 30px;
 }
 
-#signup-form h2 {
+#signup-form > h2 {
     color: #fafafa;
     margin-bottom: 20px;
 }
 
 .text-input {
-    height: 25px;
-    width: 100%;
-    margin-top: 5px;
-    margin-bottom: 20px;
-    padding: 0 5px;
     background: transparent;
     color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
     border: 1px solid #fafafa;
     border-radius: 2px;
+    padding: 0 5px;
 }
 
 .radio-buttons {
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    width: 100%;
 }
 
 .join-button {
     margin-top: 20px;
-    padding: 15px 32px;
     border-radius: 2px;
+    padding: 15px 32px;
+    font-size: 100%;
     background-color: #454b1b;
     color: #fafafa;
-    font-size: 100%;
 }
 
 /* Footer */
